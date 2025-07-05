@@ -16,6 +16,7 @@ namespace acaoEducativa
     
     public partial class frmCadartroDeProduto : Form
     {
+        
 
         MySqlConnection Conexao;
         public frmCadartroDeProduto()
@@ -40,15 +41,16 @@ namespace acaoEducativa
 
 
                 Conexao  = new MySqlConnection(conexaoMysql);
-               string slq = " insert into tb_produto (nomeProduto, marcaProduto, quantidadeProduto) values('yescece', 'dsdceces', '30')";
-               
-                
-              MySqlCommand comando = new MySqlCommand(slq, Conexao);
+                string slq = " insert into tb_produto (nomeProduto, marcaProduto, quantidadeProduto) values('yescscscscsscece', 'dsdceces', '30')";
+
+                MySqlCommand comando = new MySqlCommand(slq, Conexao);
                 Conexao.Open();
                 
            
                 comando.ExecuteReader();
-                MessageBox.Show("FENIFE");
+                limparCampos();
+                MessageBox.Show("Produto cadastrado com sucesso");
+
             
             }
             catch (Exception ex) {
@@ -61,5 +63,15 @@ namespace acaoEducativa
           
                 
                 }
+
+
+        public void limparCampos()
+        {
+
+            txtNomeProduto.Clear();
+            txtMarcaProduto.Clear();
+            txtQuantidade.Clear();
+
+        }
     }
 }
