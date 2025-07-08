@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadartroDeProduto));
             this.txtNomeProduto = new System.Windows.Forms.TextBox();
             this.lblProdutoNome = new System.Windows.Forms.Label();
             this.txtMarcaProduto = new System.Windows.Forms.TextBox();
@@ -35,13 +36,15 @@
             this.lblQuantidadeProduto = new System.Windows.Forms.Label();
             this.txtQuantidade = new System.Windows.Forms.TextBox();
             this.btnCadastraProduto = new System.Windows.Forms.Button();
-            this.lblRes = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // txtNomeProduto
             // 
             this.txtNomeProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNomeProduto.Location = new System.Drawing.Point(12, 59);
+            this.txtNomeProduto.Location = new System.Drawing.Point(40, 55);
+            this.txtNomeProduto.MaxLength = 20;
             this.txtNomeProduto.Name = "txtNomeProduto";
             this.txtNomeProduto.Size = new System.Drawing.Size(252, 26);
             this.txtNomeProduto.TabIndex = 0;
@@ -50,7 +53,7 @@
             // 
             this.lblProdutoNome.AutoSize = true;
             this.lblProdutoNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProdutoNome.Location = new System.Drawing.Point(12, 29);
+            this.lblProdutoNome.Location = new System.Drawing.Point(40, 18);
             this.lblProdutoNome.Name = "lblProdutoNome";
             this.lblProdutoNome.Size = new System.Drawing.Size(53, 20);
             this.lblProdutoNome.TabIndex = 1;
@@ -59,7 +62,8 @@
             // txtMarcaProduto
             // 
             this.txtMarcaProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMarcaProduto.Location = new System.Drawing.Point(12, 156);
+            this.txtMarcaProduto.Location = new System.Drawing.Point(40, 147);
+            this.txtMarcaProduto.MaxLength = 20;
             this.txtMarcaProduto.Name = "txtMarcaProduto";
             this.txtMarcaProduto.Size = new System.Drawing.Size(252, 26);
             this.txtMarcaProduto.TabIndex = 2;
@@ -68,7 +72,7 @@
             // 
             this.lblManrcaProduto.AutoSize = true;
             this.lblManrcaProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblManrcaProduto.Location = new System.Drawing.Point(12, 126);
+            this.lblManrcaProduto.Location = new System.Drawing.Point(40, 117);
             this.lblManrcaProduto.Name = "lblManrcaProduto";
             this.lblManrcaProduto.Size = new System.Drawing.Size(125, 20);
             this.lblManrcaProduto.TabIndex = 3;
@@ -78,7 +82,7 @@
             // 
             this.lblQuantidadeProduto.AutoSize = true;
             this.lblQuantidadeProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuantidadeProduto.Location = new System.Drawing.Point(12, 199);
+            this.lblQuantidadeProduto.Location = new System.Drawing.Point(40, 190);
             this.lblQuantidadeProduto.Name = "lblQuantidadeProduto";
             this.lblQuantidadeProduto.Size = new System.Drawing.Size(94, 20);
             this.lblQuantidadeProduto.TabIndex = 6;
@@ -87,7 +91,8 @@
             // txtQuantidade
             // 
             this.txtQuantidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQuantidade.Location = new System.Drawing.Point(12, 229);
+            this.txtQuantidade.Location = new System.Drawing.Point(40, 220);
+            this.txtQuantidade.MaxLength = 3;
             this.txtQuantidade.Name = "txtQuantidade";
             this.txtQuantidade.Size = new System.Drawing.Size(73, 26);
             this.txtQuantidade.TabIndex = 5;
@@ -95,41 +100,41 @@
             // 
             // btnCadastraProduto
             // 
-            this.btnCadastraProduto.Location = new System.Drawing.Point(43, 311);
+            this.btnCadastraProduto.Location = new System.Drawing.Point(18, 324);
             this.btnCadastraProduto.Name = "btnCadastraProduto";
-            this.btnCadastraProduto.Size = new System.Drawing.Size(180, 54);
+            this.btnCadastraProduto.Size = new System.Drawing.Size(340, 54);
             this.btnCadastraProduto.TabIndex = 7;
             this.btnCadastraProduto.Text = "Cadastra";
             this.btnCadastraProduto.UseVisualStyleBackColor = true;
             this.btnCadastraProduto.Click += new System.EventHandler(this.btnCadastraProduto_Click);
             // 
-            // lblRes
+            // panel1
             // 
-            this.lblRes.AutoSize = true;
-            this.lblRes.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRes.Location = new System.Drawing.Point(353, 215);
-            this.lblRes.Name = "lblRes";
-            this.lblRes.Size = new System.Drawing.Size(94, 20);
-            this.lblRes.TabIndex = 8;
-            this.lblRes.Text = "Quantidade";
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Controls.Add(this.btnCadastraProduto);
+            this.panel1.Controls.Add(this.txtNomeProduto);
+            this.panel1.Controls.Add(this.lblQuantidadeProduto);
+            this.panel1.Controls.Add(this.lblProdutoNome);
+            this.panel1.Controls.Add(this.txtQuantidade);
+            this.panel1.Controls.Add(this.txtMarcaProduto);
+            this.panel1.Controls.Add(this.lblManrcaProduto);
+            this.panel1.Location = new System.Drawing.Point(12, 12);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(382, 401);
+            this.panel1.TabIndex = 8;
             // 
             // frmCadartroDeProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.lblRes);
-            this.Controls.Add(this.btnCadastraProduto);
-            this.Controls.Add(this.lblQuantidadeProduto);
-            this.Controls.Add(this.txtQuantidade);
-            this.Controls.Add(this.lblManrcaProduto);
-            this.Controls.Add(this.txtMarcaProduto);
-            this.Controls.Add(this.lblProdutoNome);
-            this.Controls.Add(this.txtNomeProduto);
+            this.ClientSize = new System.Drawing.Size(408, 431);
+            this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCadartroDeProduto";
-            this.Text = "frmCadartroDeProduto";
+            this.Text = "Cadartro De Produto";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -142,6 +147,6 @@
         private System.Windows.Forms.Label lblQuantidadeProduto;
         private System.Windows.Forms.TextBox txtQuantidade;
         private System.Windows.Forms.Button btnCadastraProduto;
-        private System.Windows.Forms.Label lblRes;
+        private System.Windows.Forms.Panel panel1;
     }
 }

@@ -18,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmCadartroDeProduto.cs",
+              "DocumentMoniker": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmCadartroDeProduto.cs",
+              "RelativeDocumentMoniker": "acaoEducativa\\frmCadartroDeProduto.cs",
+              "ToolTip": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmCadartroDeProduto.cs",
+              "RelativeToolTip": "acaoEducativa\\frmCadartroDeProduto.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-08T02:30:34.035Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -31,19 +44,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T04:45:39.159Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmCadartroDeProduto.cs",
-              "DocumentMoniker": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmCadartroDeProduto.cs",
-              "RelativeDocumentMoniker": "acaoEducativa\\frmCadartroDeProduto.cs",
-              "ToolTip": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmCadartroDeProduto.cs",
-              "RelativeToolTip": "acaoEducativa\\frmCadartroDeProduto.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAkwEwAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T21:21:16.491Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -13,36 +13,36 @@ using System.Windows.Forms;
 
 namespace acaoEducativa
 {
-    
+
     public partial class frmCadartroDeProduto : Form
     {
-        
+
 
         MySqlConnection Conexao;
         public frmCadartroDeProduto()
         {
             InitializeComponent();
         }
-        
-    
+
+
 
         private void btnCadastraProduto_Click(object sender, EventArgs e)
         {
             string nomeProduto, marcaProduto;
-            int quantidadeProduto;
+            int quantidadeProduto = 0;
 
-            nomeProduto= txtNomeProduto.Text;
-            marcaProduto= txtMarcaProduto.Text;
+            nomeProduto = txtNomeProduto.Text;
+            marcaProduto = txtMarcaProduto.Text;
             quantidadeProduto = int.Parse(txtQuantidade.Text);
 
 
             CadastaProduto();
-            
 
 
-          
-                
-                }
+
+
+
+        }
 
 
         public void limparCampos()
@@ -51,11 +51,20 @@ namespace acaoEducativa
             txtNomeProduto.Clear();
             txtMarcaProduto.Clear();
             txtQuantidade.Clear();
+            string x = "0";
+
+            txtQuantidade.Text = x;
+            
 
         }
 
 
-        public void CadastaProduto()
+       
+              
+          
+        
+        
+    public void CadastaProduto()
         {
             try
             {
@@ -69,22 +78,27 @@ namespace acaoEducativa
 
                 comando.Parameters.AddWithValue("@nomeProduto", txtNomeProduto.Text);
                 comando.Parameters.AddWithValue("@marcaProduto", txtMarcaProduto.Text);
-                comando.Parameters.AddWithValue("@quantidadeProduto", txtQuantidade.Text); 
+                comando.Parameters.AddWithValue("@quantidadeProduto", txtQuantidade.Text);
 
                 Conexao.Open();
-                    
+
 
                 comando.ExecuteNonQuery();
                 limparCampos();
                 MessageBox.Show("Produto cadastrado com sucesso");
 
 
-            }
-            catch (Exception ex)
-            {
+            }catch (Exception ex){
 
                 MessageBox.Show(ex.Message);
             }
+
+
+
+
+
         }
     }
 }
+
+
