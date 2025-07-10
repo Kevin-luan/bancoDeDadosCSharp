@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,8 @@ namespace acaoEducativa
 {
     public partial class frmMenucs : Form
     {
+        MySqlConnection Conexao;
+
         public frmMenucs()
         {
             InitializeComponent();
@@ -31,6 +34,21 @@ namespace acaoEducativa
 
             listaDeProdutos.Show();
             this.Hide();
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string conexaMyslq = "datasourca=localhost;username=root;password=;database=acaoedicativa";
+                Conexao = new MySqlConnection(conexaMyslq);
+
+
+            }
+            catch (Exception ex) {
+                MessageBox.Show(ex.Message);
+
+            }
         }
     }
 }

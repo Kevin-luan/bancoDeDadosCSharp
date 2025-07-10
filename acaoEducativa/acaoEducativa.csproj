@@ -121,6 +121,9 @@
     <EmbeddedResource Include="frmCadartroDeProduto.resx">
       <DependentUpon>frmCadartroDeProduto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmListaDeProdutos.resx">
+      <DependentUpon>frmListaDeProdutos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMenucs.resx">
       <DependentUpon>frmMenucs.cs</DependentUpon>
     </EmbeddedResource>

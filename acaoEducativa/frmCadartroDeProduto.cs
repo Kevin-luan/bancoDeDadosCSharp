@@ -51,7 +51,7 @@ namespace acaoEducativa
             txtNomeProduto.Clear();
             txtMarcaProduto.Clear();
             txtQuantidade.Clear();
-            string x = "0";
+            string x = "1";
             txtQuantidade.Text = x;
             
 
@@ -103,6 +103,7 @@ namespace acaoEducativa
 
                     MessageBox.Show(ex.Message);
                 }
+                
 
             }
 
@@ -122,6 +123,7 @@ namespace acaoEducativa
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
+           Conexao.Close();
             frmMenucs voltar = new frmMenucs();
             voltar.Show();
             this.Hide();

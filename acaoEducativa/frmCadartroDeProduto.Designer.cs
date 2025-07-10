@@ -97,7 +97,7 @@
             this.txtQuantidade.Name = "txtQuantidade";
             this.txtQuantidade.Size = new System.Drawing.Size(73, 26);
             this.txtQuantidade.TabIndex = 5;
-            this.txtQuantidade.Text = "0";
+            this.txtQuantidade.Text = "1";
             // 
             // btnCadastraProduto
             // 
