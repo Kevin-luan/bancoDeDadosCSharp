@@ -37,6 +37,7 @@
             this.txtQuantidade = new System.Windows.Forms.TextBox();
             this.btnCadastraProduto = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnVoltar = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -52,10 +53,10 @@
             // lblProdutoNome
             // 
             this.lblProdutoNome.AutoSize = true;
-            this.lblProdutoNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProdutoNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProdutoNome.Location = new System.Drawing.Point(40, 18);
             this.lblProdutoNome.Name = "lblProdutoNome";
-            this.lblProdutoNome.Size = new System.Drawing.Size(53, 20);
+            this.lblProdutoNome.Size = new System.Drawing.Size(64, 25);
             this.lblProdutoNome.TabIndex = 1;
             this.lblProdutoNome.Text = "Nome";
             // 
@@ -71,20 +72,20 @@
             // lblManrcaProduto
             // 
             this.lblManrcaProduto.AutoSize = true;
-            this.lblManrcaProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblManrcaProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblManrcaProduto.Location = new System.Drawing.Point(40, 117);
             this.lblManrcaProduto.Name = "lblManrcaProduto";
-            this.lblManrcaProduto.Size = new System.Drawing.Size(125, 20);
+            this.lblManrcaProduto.Size = new System.Drawing.Size(148, 25);
             this.lblManrcaProduto.TabIndex = 3;
             this.lblManrcaProduto.Text = "Marca / Modelo";
             // 
             // lblQuantidadeProduto
             // 
             this.lblQuantidadeProduto.AutoSize = true;
-            this.lblQuantidadeProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQuantidadeProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuantidadeProduto.Location = new System.Drawing.Point(40, 190);
             this.lblQuantidadeProduto.Name = "lblQuantidadeProduto";
-            this.lblQuantidadeProduto.Size = new System.Drawing.Size(94, 20);
+            this.lblQuantidadeProduto.Size = new System.Drawing.Size(114, 25);
             this.lblQuantidadeProduto.TabIndex = 6;
             this.lblQuantidadeProduto.Text = "Quantidade";
             // 
@@ -100,9 +101,10 @@
             // 
             // btnCadastraProduto
             // 
-            this.btnCadastraProduto.Location = new System.Drawing.Point(18, 324);
+            this.btnCadastraProduto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastraProduto.Location = new System.Drawing.Point(201, 279);
             this.btnCadastraProduto.Name = "btnCadastraProduto";
-            this.btnCadastraProduto.Size = new System.Drawing.Size(340, 54);
+            this.btnCadastraProduto.Size = new System.Drawing.Size(159, 54);
             this.btnCadastraProduto.TabIndex = 7;
             this.btnCadastraProduto.Text = "Cadastra";
             this.btnCadastraProduto.UseVisualStyleBackColor = true;
@@ -111,6 +113,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Controls.Add(this.btnVoltar);
             this.panel1.Controls.Add(this.btnCadastraProduto);
             this.panel1.Controls.Add(this.txtNomeProduto);
             this.panel1.Controls.Add(this.lblQuantidadeProduto);
@@ -122,6 +125,19 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(382, 401);
             this.panel1.TabIndex = 8;
+            // 
+            // btnVoltar
+            // 
+            this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.ForeColor = System.Drawing.Color.Red;
+            this.btnVoltar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVoltar.Location = new System.Drawing.Point(12, 279);
+            this.btnVoltar.Name = "btnVoltar";
+            this.btnVoltar.Size = new System.Drawing.Size(159, 54);
+            this.btnVoltar.TabIndex = 8;
+            this.btnVoltar.Text = "Voltar";
+            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // frmCadartroDeProduto
             // 
@@ -148,5 +164,6 @@
         private System.Windows.Forms.TextBox txtQuantidade;
         private System.Windows.Forms.Button btnCadastraProduto;
         private System.Windows.Forms.Panel panel1;
+        protected System.Windows.Forms.Button btnVoltar;
     }
 }

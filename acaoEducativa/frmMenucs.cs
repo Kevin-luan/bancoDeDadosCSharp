@@ -24,5 +24,13 @@ namespace acaoEducativa
             this.Hide();
 
         }
+
+        private void btnVerProdutos_Click(object sender, EventArgs e)
+        {
+            frmListaDeProdutos listaDeProdutos = new frmListaDeProdutos();
+
+            listaDeProdutos.Show();
+            this.Hide();
+        }
     }
 }

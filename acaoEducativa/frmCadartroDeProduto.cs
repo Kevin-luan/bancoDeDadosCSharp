@@ -52,7 +52,6 @@ namespace acaoEducativa
             txtMarcaProduto.Clear();
             txtQuantidade.Clear();
             string x = "0";
-
             txtQuantidade.Text = x;
             
 
@@ -66,37 +65,66 @@ namespace acaoEducativa
         
     public void CadastaProduto()
         {
-            try
+            if (txtMarcaProduto.Text == "" || txtNomeProduto.Text == "" )
             {
-                string conexaoMysql = "datasource=localhost;username=root;password=;database=db_acaoeducativa";
-
-
-                Conexao = new MySqlConnection(conexaoMysql);
-                string slq = " insert into tb_produto (nomeProduto, marcaProduto, quantidadeProduto) values(@nomeProduto,@marcaProduto,@quantidadeProduto)";
-
-                MySqlCommand comando = new MySqlCommand(slq, Conexao);
-
-                comando.Parameters.AddWithValue("@nomeProduto", txtNomeProduto.Text);
-                comando.Parameters.AddWithValue("@marcaProduto", txtMarcaProduto.Text);
-                comando.Parameters.AddWithValue("@quantidadeProduto", txtQuantidade.Text);
-
-                Conexao.Open();
-
-
-                comando.ExecuteNonQuery();
+                MessageBox.Show("Todos os capos devem ser prenchidos");
                 limparCampos();
-                MessageBox.Show("Produto cadastrado com sucesso");
+            }
+            else
+            {
+                try
+                {
 
 
-            }catch (Exception ex){
 
-                MessageBox.Show(ex.Message);
+                    string conexaoMysql = "datasource=localhost;username=root;password=;database=db_acaoeducativa";
+
+
+                    Conexao = new MySqlConnection(conexaoMysql);
+                    string slq = " insert into tb_produto (nomeProduto, marcaProduto, quantidadeProduto) values(@nomeProduto,@marcaProduto,@quantidadeProduto)";
+
+                    MySqlCommand comando = new MySqlCommand(slq, Conexao);
+
+                    comando.Parameters.AddWithValue("@nomeProduto", txtNomeProduto.Text);
+                    comando.Parameters.AddWithValue("@marcaProduto", txtMarcaProduto.Text);
+                    comando.Parameters.AddWithValue("@quantidadeProduto", txtQuantidade.Text);
+
+                    Conexao.Open();
+
+
+                    comando.ExecuteNonQuery();
+                    limparCampos();
+                    MessageBox.Show("Produto cadastrado com sucesso");
+
+
+                }
+                catch (Exception ex)
+                {
+
+                    MessageBox.Show(ex.Message);
+                }
+
             }
 
 
 
 
 
+
+
+          
+
+
+
+
+
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            frmMenucs voltar = new frmMenucs();
+            voltar.Show();
+            this.Hide();
         }
     }
 }
