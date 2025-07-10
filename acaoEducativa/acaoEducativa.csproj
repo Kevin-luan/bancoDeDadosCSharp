@@ -104,10 +104,19 @@
     <Compile Include="frmCadartroDeProduto.Designer.cs">
       <DependentUpon>frmCadartroDeProduto.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmMenucs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenucs.Designer.cs">
+      <DependentUpon>frmMenucs.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmCadartroDeProduto.resx">
       <DependentUpon>frmCadartroDeProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenucs.resx">
+      <DependentUpon>frmMenucs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
