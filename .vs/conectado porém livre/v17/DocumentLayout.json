@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|c:\\users\\supor\\onedrive\\documentos\\visual studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoeducativa\\frmmenucs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|solutionrelative:acaoeducativa\\frmmenucs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|c:\\users\\supor\\onedrive\\documentos\\visual studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoeducativa\\frmmenucs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|solutionrelative:acaoeducativa\\frmmenucs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +22,27 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMenucs.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmMenucs.cs",
+              "RelativeDocumentMoniker": "acaoEducativa\\frmMenucs.cs",
+              "ToolTip": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmMenucs.cs [Design]",
+              "RelativeToolTip": "acaoEducativa\\frmMenucs.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T18:46:02.739Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "frmMenucs.cs",
               "DocumentMoniker": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmMenucs.cs",
               "RelativeDocumentMoniker": "acaoEducativa\\frmMenucs.cs",
               "ToolTip": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmMenucs.cs",
               "RelativeToolTip": "acaoEducativa\\frmMenucs.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCsAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAlwDEAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T14:46:06.719Z",
+              "WhenOpened": "2025-07-11T18:40:06.832Z",
               "EditorCaption": ""
             }
           ]
