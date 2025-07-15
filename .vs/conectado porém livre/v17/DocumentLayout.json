@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|c:\\users\\supor\\onedrive\\documentos\\visual studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoeducativa\\frmmenucs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|solutionrelative:acaoeducativa\\frmmenucs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|c:\\users\\supor\\onedrive\\documentos\\visual studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoeducativa\\frmcadartrodeproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|solutionrelative:acaoeducativa\\frmcadartrodeproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoeducativa\\frmmenucs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|solutionrelative:acaoeducativa\\frmmenucs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|c:\\users\\supor\\onedrive\\documentos\\visual studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoeducativa\\frmlistadeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|solutionrelative:acaoeducativa\\frmlistadeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|c:\\users\\supor\\onedrive\\documentos\\visual studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoeducativa\\frmlistadeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|solutionrelative:acaoeducativa\\frmlistadeprodutos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|c:\\users\\supor\\onedrive\\documentos\\visual studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoeducativa\\frmcadartrodeproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|solutionrelative:acaoeducativa\\frmcadartrodeproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|c:\\users\\supor\\onedrive\\documentos\\visual studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoeducativa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|solutionrelative:acaoeducativa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|c:\\users\\supor\\onedrive\\documentos\\visual studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoeducativa\\conexaocombancodedados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|solutionrelative:acaoeducativa\\conexaocombancodedados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|c:\\users\\supor\\onedrive\\documentos\\visual studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoeducativa\\frmcadastrarcolaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|solutionrelative:acaoeducativa\\frmcadastrarcolaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|c:\\users\\supor\\onedrive\\documentos\\visual studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoeducativa\\frmcadastrarcolaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AA0BD04-F46C-4185-AABD-9C1D54593A06}|acaoEducativa\\acaoEducativa.csproj|solutionrelative:acaoeducativa\\frmcadastrarcolaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +42,107 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmMenucs.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmMenucs.cs",
-              "RelativeDocumentMoniker": "acaoEducativa\\frmMenucs.cs",
-              "ToolTip": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmMenucs.cs [Design]",
-              "RelativeToolTip": "acaoEducativa\\frmMenucs.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\Program.cs",
+              "RelativeDocumentMoniker": "acaoEducativa\\Program.cs",
+              "ToolTip": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\Program.cs",
+              "RelativeToolTip": "acaoEducativa\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T18:46:02.739Z",
+              "WhenOpened": "2025-07-15T19:53:18.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmCadartroDeProduto.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmCadartroDeProduto.cs",
+              "RelativeDocumentMoniker": "acaoEducativa\\frmCadartroDeProduto.cs",
+              "ToolTip": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmCadartroDeProduto.cs [Design]",
+              "RelativeToolTip": "acaoEducativa\\frmCadartroDeProduto.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T19:50:08.688Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmListaDeProdutos.cs",
+              "DocumentMoniker": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmListaDeProdutos.cs",
+              "RelativeDocumentMoniker": "acaoEducativa\\frmListaDeProdutos.cs",
+              "ToolTip": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmListaDeProdutos.cs",
+              "RelativeToolTip": "acaoEducativa\\frmListaDeProdutos.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T19:50:04.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmListaDeProdutos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmListaDeProdutos.cs",
+              "RelativeDocumentMoniker": "acaoEducativa\\frmListaDeProdutos.cs",
+              "ToolTip": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmListaDeProdutos.cs [Design]",
+              "RelativeToolTip": "acaoEducativa\\frmListaDeProdutos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T19:50:01.055Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmMenucs.cs",
-              "DocumentMoniker": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmMenucs.cs",
-              "RelativeDocumentMoniker": "acaoEducativa\\frmMenucs.cs",
-              "ToolTip": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmMenucs.cs",
-              "RelativeToolTip": "acaoEducativa\\frmMenucs.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAQwDwAAAAZAAAAAAAAAA==",
+              "Title": "frmCadartroDeProduto.cs",
+              "DocumentMoniker": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmCadartroDeProduto.cs",
+              "RelativeDocumentMoniker": "acaoEducativa\\frmCadartroDeProduto.cs",
+              "ToolTip": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmCadartroDeProduto.cs",
+              "RelativeToolTip": "acaoEducativa\\frmCadartroDeProduto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwCEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-11T18:40:06.832Z",
+              "WhenOpened": "2025-07-15T19:10:12.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConexaoCombancoDeDados.cs",
+              "DocumentMoniker": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\ConexaoCombancoDeDados.cs",
+              "RelativeDocumentMoniker": "acaoEducativa\\ConexaoCombancoDeDados.cs",
+              "ToolTip": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\ConexaoCombancoDeDados.cs",
+              "RelativeToolTip": "acaoEducativa\\ConexaoCombancoDeDados.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T19:07:09.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmCadastrarColaborador.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmCadastrarColaborador.cs",
+              "RelativeDocumentMoniker": "acaoEducativa\\frmCadastrarColaborador.cs",
+              "ToolTip": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmCadastrarColaborador.cs [Design]",
+              "RelativeToolTip": "acaoEducativa\\frmCadastrarColaborador.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T19:39:20.56Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmCadastrarColaborador.cs",
+              "DocumentMoniker": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmCadastrarColaborador.cs",
+              "RelativeDocumentMoniker": "acaoEducativa\\frmCadastrarColaborador.cs",
+              "ToolTip": "C:\\Users\\supor\\OneDrive\\Documentos\\Visual Studio 2022\\conectado por\u00E9m livre\\conectado por\u00E9m livre\\acaoEducativa\\frmCadastrarColaborador.cs",
+              "RelativeToolTip": "acaoEducativa\\frmCadastrarColaborador.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T19:39:24.182Z",
               "EditorCaption": ""
             }
           ]

@@ -98,11 +98,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConexaoCombancoDeDados.cs" />
     <Compile Include="frmCadartroDeProduto.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmCadartroDeProduto.Designer.cs">
       <DependentUpon>frmCadartroDeProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastrarColaborador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastrarColaborador.Designer.cs">
+      <DependentUpon>frmCadastrarColaborador.cs</DependentUpon>
     </Compile>
     <Compile Include="frmListaDeProdutos.cs">
       <SubType>Form</SubType>
@@ -120,6 +127,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmCadartroDeProduto.resx">
       <DependentUpon>frmCadartroDeProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastrarColaborador.resx">
+      <DependentUpon>frmCadastrarColaborador.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmListaDeProdutos.resx">
       <DependentUpon>frmListaDeProdutos.cs</DependentUpon>

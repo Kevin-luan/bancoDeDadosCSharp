@@ -1,0 +1,60 @@
+﻿namespace acaoEducativa
+{
+    partial class frmCadastrarColaborador
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btnCadastrarColaborador = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnCadastrarColaborador
+            // 
+            this.btnCadastrarColaborador.Location = new System.Drawing.Point(161, 165);
+            this.btnCadastrarColaborador.Name = "btnCadastrarColaborador";
+            this.btnCadastrarColaborador.Size = new System.Drawing.Size(157, 71);
+            this.btnCadastrarColaborador.TabIndex = 0;
+            this.btnCadastrarColaborador.Text = "Cadastrar";
+            this.btnCadastrarColaborador.UseVisualStyleBackColor = true;
+            this.btnCadastrarColaborador.Click += new System.EventHandler(this.btnCadastrarColaborador_Click);
+            // 
+            // frmCadastrarColaborador
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCadastrarColaborador);
+            this.Name = "frmCadastrarColaborador";
+            this.Text = "frmCadastrarColaborador";
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnCadastrarColaborador;
+    }
+}

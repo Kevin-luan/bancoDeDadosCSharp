@@ -44,3 +44,4 @@ C:\Users\supor\OneDrive\Documentos\Visual Studio 2022\conectado porém livre\con
 C:\Users\supor\OneDrive\Documentos\Visual Studio 2022\conectado porém livre\conectado porém livre\acaoEducativa\obj\Debug\acaoEduc.24F9A02E.Up2Date
 C:\Users\supor\OneDrive\Documentos\Visual Studio 2022\conectado porém livre\conectado porém livre\acaoEducativa\obj\Debug\acaoEducativa.frmMenucs.resources
 C:\Users\supor\OneDrive\Documentos\Visual Studio 2022\conectado porém livre\conectado porém livre\acaoEducativa\obj\Debug\acaoEducativa.frmListaDeProdutos.resources
+C:\Users\supor\OneDrive\Documentos\Visual Studio 2022\conectado porém livre\conectado porém livre\acaoEducativa\obj\Debug\acaoEducativa.frmCadastrarColaborador.resources

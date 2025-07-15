@@ -20,6 +20,8 @@ namespace acaoEducativa
         {
             InitializeComponent();
 
+            
+
             lstBuscar.View = View.Details;
             lstBuscar.Columns.Add("Id", 30,HorizontalAlignment.Left);
             lstBuscar.Columns.Add("Nome Produto", 150, HorizontalAlignment.Left);
@@ -47,48 +49,63 @@ namespace acaoEducativa
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            try
+            string busca="";
+            busca=txtBuscar.Text;
+
+            if (busca == "")
             {
-                string busca = "'%" + txtBuscar.Text + "+'";
-               
+                MessageBox.Show("Digite o nome ou modelo do Preduto");
+                txtBuscar.Focus();
+            }
+            else
+            {
 
 
-                string conexaoMyslq = "datasource=localhost;username=root;password=;database=db_acaoeducativa";
-
-                Conexao = new MySqlConnection(conexaoMyslq);
-                // string sql = "select * from tb_produto where nomeProduto= " + busca  ;
-                string sql = "SELECT * FROM tb_produto WHERE nomeProduto LIKE @nome";
-                MySqlCommand comando = new MySqlCommand(sql, Conexao);
-                comando.Parameters.AddWithValue("@nome", "%" + txtBuscar.Text + "%");
-                Conexao.Open();
-           
-
-                MySqlDataReader reader = comando.ExecuteReader();
-                lstBuscar.Items.Clear();
 
 
-                while (reader.Read())
+                try
                 {
-                    string[] row =
+                    busca = "'%" + txtBuscar.Text + "+'";
+
+
+
+                    string conexaoMyslq = "datasource=localhost;username=root;password=;database=db_acaoeducativa";
+
+                    Conexao = new MySqlConnection(conexaoMyslq);
+                    // string sql = "select * from tb_produto where nomeProduto= " + busca  ;
+                    string sql = "SELECT * FROM tb_produto WHERE nomeProduto LIKE @nome";
+                    MySqlCommand comando = new MySqlCommand(sql, Conexao);
+                    comando.Parameters.AddWithValue("@nome", "%" + txtBuscar.Text + "%");
+                    Conexao.Open();
+
+
+                    MySqlDataReader reader = comando.ExecuteReader();
+                    lstBuscar.Items.Clear();
+
+
+                    while (reader.Read())
                     {
+                        string[] row =
+                        {
                         reader.GetInt32(0).ToString(),
                         reader.GetString(1),
                         reader.GetString(2),
                         reader.GetInt32(3).ToString(),
                     };
 
-                    
-                    var linha = new ListViewItem(row);
-                    lstBuscar.Items.Add(linha);
+
+                        var linha = new ListViewItem(row);
+                        lstBuscar.Items.Add(linha);
+                    }
+                }
+
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+
                 }
             }
-
-
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-
-            }   
         }
     }
 }
