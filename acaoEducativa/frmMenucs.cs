@@ -50,31 +50,34 @@ namespace acaoEducativa
             try
             {
                 string busca = "'%" + txtBuscar.Text + "+'";
-
+               
 
 
                 string conexaoMyslq = "datasource=localhost;username=root;password=;database=db_acaoeducativa";
 
                 Conexao = new MySqlConnection(conexaoMyslq);
-                string sql = "select * from tb_produto where nomeProduto like " + busca;
-
-                Conexao.Open();
+                // string sql = "select * from tb_produto where nomeProduto= " + busca  ;
+                string sql = "SELECT * FROM tb_produto WHERE nomeProduto LIKE @nome";
                 MySqlCommand comando = new MySqlCommand(sql, Conexao);
+                comando.Parameters.AddWithValue("@nome", "%" + txtBuscar.Text + "%");
+                Conexao.Open();
+           
 
                 MySqlDataReader reader = comando.ExecuteReader();
-                lstBuscar.Clear();
+                lstBuscar.Items.Clear();
 
 
                 while (reader.Read())
                 {
                     string[] row =
                     {
-                        reader.GetString(0),
+                        reader.GetInt32(0).ToString(),
                         reader.GetString(1),
                         reader.GetString(2),
-                        reader.GetString(3),
+                        reader.GetInt32(3).ToString(),
                     };
 
+                    
                     var linha = new ListViewItem(row);
                     lstBuscar.Items.Add(linha);
                 }
