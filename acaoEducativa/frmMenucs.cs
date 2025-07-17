@@ -107,5 +107,13 @@ namespace acaoEducativa
                 }
             }
         }
+
+        private void btnEditarItem_Click(object sender, EventArgs e)
+        {
+            frmEditarProduto frmEditarProduto = new frmEditarProduto();
+            frmEditarProduto.Show();
+            this.Hide();
+
+        }
     }
 }

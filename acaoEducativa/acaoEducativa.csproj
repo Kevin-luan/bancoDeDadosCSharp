@@ -111,6 +111,12 @@
     <Compile Include="frmCadastrarColaborador.Designer.cs">
       <DependentUpon>frmCadastrarColaborador.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmEditarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditarProduto.Designer.cs">
+      <DependentUpon>frmEditarProduto.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmListaDeProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmCadastrarColaborador.resx">
       <DependentUpon>frmCadastrarColaborador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditarProduto.resx">
+      <DependentUpon>frmEditarProduto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmListaDeProdutos.resx">
       <DependentUpon>frmListaDeProdutos.cs</DependentUpon>

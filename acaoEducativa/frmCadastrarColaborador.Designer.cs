@@ -33,9 +33,9 @@
             // 
             // btnCadastrarColaborador
             // 
-            this.btnCadastrarColaborador.Location = new System.Drawing.Point(161, 165);
+            this.btnCadastrarColaborador.Location = new System.Drawing.Point(321, 319);
             this.btnCadastrarColaborador.Name = "btnCadastrarColaborador";
-            this.btnCadastrarColaborador.Size = new System.Drawing.Size(157, 71);
+            this.btnCadastrarColaborador.Size = new System.Drawing.Size(157, 41);
             this.btnCadastrarColaborador.TabIndex = 0;
             this.btnCadastrarColaborador.Text = "Cadastrar";
             this.btnCadastrarColaborador.UseVisualStyleBackColor = true;

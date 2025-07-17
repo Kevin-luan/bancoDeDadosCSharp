@@ -34,6 +34,7 @@
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnBuscar = new System.Windows.Forms.Button();
             this.lstBuscar = new System.Windows.Forms.ListView();
+            this.btnEditarItem = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnNovoItem
@@ -43,7 +44,7 @@
             this.btnNovoItem.Image = ((System.Drawing.Image)(resources.GetObject("btnNovoItem.Image")));
             this.btnNovoItem.Location = new System.Drawing.Point(12, 12);
             this.btnNovoItem.Name = "btnNovoItem";
-            this.btnNovoItem.Size = new System.Drawing.Size(136, 192);
+            this.btnNovoItem.Size = new System.Drawing.Size(155, 192);
             this.btnNovoItem.TabIndex = 0;
             this.btnNovoItem.Text = "Novo Item";
             this.btnNovoItem.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -88,11 +89,26 @@
             this.lstBuscar.TabIndex = 7;
             this.lstBuscar.UseCompatibleStateImageBehavior = false;
             // 
+            // btnEditarItem
+            // 
+            this.btnEditarItem.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btnEditarItem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEditarItem.Image = ((System.Drawing.Image)(resources.GetObject("btnEditarItem.Image")));
+            this.btnEditarItem.Location = new System.Drawing.Point(180, 12);
+            this.btnEditarItem.Name = "btnEditarItem";
+            this.btnEditarItem.Size = new System.Drawing.Size(155, 192);
+            this.btnEditarItem.TabIndex = 8;
+            this.btnEditarItem.Text = "Editar Items";
+            this.btnEditarItem.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnEditarItem.UseVisualStyleBackColor = false;
+            this.btnEditarItem.Click += new System.EventHandler(this.btnEditarItem_Click);
+            // 
             // frmMenucs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(894, 638);
+            this.Controls.Add(this.btnEditarItem);
             this.Controls.Add(this.lstBuscar);
             this.Controls.Add(this.btnBuscar);
             this.Controls.Add(this.txtBuscar);
@@ -114,5 +130,6 @@
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.ListView lstBuscar;
+        private System.Windows.Forms.Button btnEditarItem;
     }
 }
