@@ -25,13 +25,19 @@ namespace acaoEducativa
             lstBuscar.Columns.Add("Nome Produto", 150, HorizontalAlignment.Left);
             lstBuscar.Columns.Add("Marca ou Modelo ", 150, HorizontalAlignment.Left);
             lstBuscar.Columns.Add("Quantidade", 150, HorizontalAlignment.Left);
-            
+           
+
+
+
         }
 
         private void btnBuscarTudo_Click(object sender, EventArgs e)
         {
             try
             {
+                  
+               
+                
                 string stringConecao = "datasource=localhost;username=root;password=;database=db_acaoeducativa";
                 Conexao = new MySqlConnection(stringConecao);
                 string sql = "SELECT * FROM tb_produto";
@@ -92,6 +98,13 @@ namespace acaoEducativa
                 // MessageBox.Show($"ID: {id}\nProduto: {nomeProduto}");
             }
 
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            frmMenucs voltar = new frmMenucs();
+            voltar.Show();
+            this.Hide();        
         }
     }
 }

@@ -123,7 +123,7 @@ namespace acaoEducativa
 
         private void btnVoltar_Click(object sender, EventArgs e)
         {
-           Conexao.Close();
+           
             frmMenucs voltar = new frmMenucs();
             voltar.Show();
             this.Hide();
